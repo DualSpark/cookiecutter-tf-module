@@ -22,9 +22,8 @@ components['awsconfig'] = {
 
 def configure_role():
     print('\n\nMODULE CONFIGURATION:\n=====================')
-    for action_name, action in components.items():
-        if read_user_yes_no(components[action['question']], 'Yes'):
-            if 'fiename' in action:
-                if 'append' in action:
-                    with open(action['filename'], 'a') as f:
-                        f.write(action['append'])
+    if read_user_yes_no(components['awsconfig']['question'], 'Yes'):
+        if 'fiename' in action:
+            if 'append' in action:
+                with open(action['filename'], 'a') as f:
+                    f.write(action['append'])

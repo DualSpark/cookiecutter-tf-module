@@ -13,7 +13,7 @@ except NameError:
 
 components = OrderedDict()
 
-components['awsconfig'] {
+components['awsconfig'] = {
     'question': '\nShould it include AWS configuration variable declarations? ',
     'hint': '  Include AWS access and secret key variables ',
     'filename': 'variables.tf',

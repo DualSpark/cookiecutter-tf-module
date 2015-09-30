@@ -1,0 +1,10 @@
+{
+  "full_name": "Patrick McClory",
+  "company_name": "Datapipe, Inc.",
+  "email": "pmcclory@datapipe.com",
+  "github_username": "pmcclory",
+  "module_name": "template",
+  "short_description": "A Terraform Module",
+  "year": "2015",
+  "version": "0.1.0"
+}

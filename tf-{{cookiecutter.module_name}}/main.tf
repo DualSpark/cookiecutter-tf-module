@@ -1,5 +1,5 @@
 //
-// Module: {{cookiecutter.repo_name}}
+// Module: {{cookiecutter.module_name}}
 //
 
 //
